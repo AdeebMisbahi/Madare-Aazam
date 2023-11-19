@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Header from './/components/Header/Header'
+import Header from './components/Header/Header'
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Introduction from './pages/ZindaShahMadar/Introduction'
 import Shajra from './pages/ZindaShahMadar/Shajra'
@@ -12,9 +12,10 @@ import Home from './pages/Home'
 const App =()=> {
     return(
      <>
-     <Header />
+    <Header />
+
      <Routes>
-        <Route path="/" element = {<Home /> } />
+        <Route path="/" element = {< Home /> } />
         <Route path="/introduction" element = {<Introduction /> } />
         <Route path="/shajra" element = {<Shajra /> } />
         <Route path="/alqabat" element = {<Alqabat /> } />

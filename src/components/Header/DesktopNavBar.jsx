@@ -1,31 +1,45 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { LINKS } from './menuItems';
+import { motion } from 'framer-motion';
 
 const DesktopNavBar = () => {
+  // Define variants for animation
+  const containerVariants = {
+    hidden: { opacity: 0, y: -10 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  };
+  const listItemVariants = {
+    hidden: { opacity: 0, x: -10 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
+  };
+
   return (
     <>
-      <ul className="lg:flex hidden items-center gap-5 font-[Poppins]">
+      <ul className="lg:flex hidden items-center gap-4 text-[#181a1c]">
         {LINKS.map((link, index) => (
             <div key={index}>
-          <li className='group' key={index}>
-              <Link to={link.to} className='px-3 py-7'>
+          <li className='relative group' key={index}>
+              <Link to={link.to} className='py-4 px-5'>
                 {link.name}
               </Link>
               {link.subMenu && (
-                <div className='z-60 absolute top-14  hidden group-hover:block hover:block'>
-                  <div className='py-3'>
-                    <div className='w-4 h-4 absolute mt-1 left-4 rotate-45 bg-[#4c805a]'> 
-                    </div>
+                <motion.div className='z-50 absolute hidden left-3 top-8 group-hover:block hover:block '
+               
+                >
+                  
+                  <div className="w-0 h-0 ml-2 border-[8px] border-l-transparent border-b-[13px] border-b-[#b40a0a] border-r-[8px] border-r-transparent rounded-full">
                   </div>
-                  <ul className="list-none border rounded-md text-start p-3.5 bg-white">
+                  
+                  <ul className='z-70 lg:flex hidden flex-col justify-center rounded-lg shadow w-34 bg-white text-sm text-gray-700'>
+                    
                     {link.sub_LINKS.map((sLink, sIndex) => (
-                      <li className='my-2.5' key={sIndex}>
-                        <Link to={sLink.to} className='text-gray-800'>{sLink.name}</Link>
-                      </li>
+                      <motion.li className='px-4 py-2 hover:bg-gray-100' key={sIndex}>
+                        <Link to={sLink.to} className='text-gray-800 py-2 px-2 '>{sLink.name}</Link>
+                      </motion.li>
                     ))}
                   </ul>
-                </div>
+                </motion.div>
               )}
           </li>
             </div>

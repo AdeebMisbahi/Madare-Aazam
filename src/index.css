@@ -1,3 +1,72 @@
-@tailwind base;
-@tailwind components;
 @tailwind utilities;
+@tailwind components;
+@tailwind base;
+
+@layer base {
+
+@font-face {
+    font-family: 'Matter-Regular';
+    src:url('./fonts/Matter-Regular.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Matter-Medium';
+    src:url('./fonts/Matter-Medium.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style:normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Matter-SemiBold';
+    src:url('./fonts/Matter-SemiBold.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Matter-Bold';
+    src:url('./fonts/Matter-Bold.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Matter-Heavy';
+    src:url('./fonts/Matter-Heavy.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Merienda-Regular';
+    src:url('./fonts/Merienda-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merienda-Medium';
+    src:url('./fonts/Merienda-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merienda-Bold';
+    src:url('./fonts/Merienda-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Merienda-SemiBold';
+    src:url('./fonts/Merienda-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+}

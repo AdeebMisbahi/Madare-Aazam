@@ -10,7 +10,18 @@ export default {
   
         '50':50,
         '60':60,
-        '70':70
+        '70':100
+      },
+      fontFamily: {
+        'sans': ['Matter-Medium', 'Helvetica', 'Arial', 'sans-serif'],
+        'matter-r': ['Matter-Regular', 'Helvetica', 'Arial', 'sans-serif'],
+        'matter-b': ['Matter-Bold', 'Helvetica', 'Arial', 'sans-serif'],
+        'matter-m': ['Matter-Medium', 'Helvetica', 'Arial', 'sans-serif'],
+        'merienda-r': ['Merienda-Regular', 'Helvetica', 'Arial', 'sans-serif'],
+        'merienda-m': ['Merienda-Medium', 'Helvetica', 'Arial', 'sans-serif'],
+        'merienda-b': ['Merienda-Bold', 'Helvetica', 'Arial', 'sans-serif'],
+        'merienda-s': ['Merienda-SemiBold', 'Helvetica', 'Arial', 'sans-serif'],
+       
       }
     },
   },
