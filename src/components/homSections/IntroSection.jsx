@@ -1,5 +1,5 @@
 import React from 'react'
-import { SVG_ARROW, SVG_CIRCLE } from '../SVG/svg'
+import { SVG_ARROW, SVG_CIRCLE } from '../../assets/SVG/svg'
 import { Link } from 'react-router-dom'
 const IntroSection = () => {
   return (

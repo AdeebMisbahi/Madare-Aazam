@@ -1,6 +1,7 @@
 import React from 'react';
-import { SVG_ARROW } from '../SVG/svg';
-import { SVG_CIRCLE } from '../SVG/svg';
+import { SVG_ARROW } from '../../assets/SVG/svg';
+import { SVG_CIRCLE } from '../../assets/SVG/svg';
+import HeaderPic from '../../assets/images/Madare-Azam1.jpg'
 import { Link } from 'react-router-dom';
 
 const LandingSection = () => {
@@ -29,8 +30,8 @@ const LandingSection = () => {
         <div className='shadow-inner rounded-lg order-1 lg:order-2'>
           <img
             className='rounded-lg w-full object-cover object-center max-h-[80vh]'
-            src="https://scontent.fdel14-2.fna.fbcdn.net/v/t39.30808-6/400445679_3693916104175407_3554535353440732362_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=F4kaI9xYZNMAX8LeaHc&_nc_ht=scontent.fdel14-2.fna&oh=00_AfC8wxHVvFP0NSO2u5FbwJvHYAfHdmB2IDV2S16zuY7IZg&oe=6559CCA8"
-            alt="Ok"
+            src={HeaderPic}
+            alt="Okll"
           />
         </div>
       </div>
