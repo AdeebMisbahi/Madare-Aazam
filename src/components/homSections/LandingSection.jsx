@@ -7,7 +7,6 @@ const LandingSection = () => {
   return (
 
     <div className='h-4/5'>
-      {/* landing lequid */}
       <div className='relative grid grid-cols-1 lg:grid-cols-2'>
         <div className='order-2 lg:order-1 mt-4 mx-[8vw] lg:mt-16'>
           <div className='flex flex-auto flex-col items-start gap-6'>
