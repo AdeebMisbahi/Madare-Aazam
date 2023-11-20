@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom';
 const LandingSection = () => {
   return (
 
-    <div className='h-4/5 border'>
+    <div className='h-4/5'>
       {/* landing lequid */}
       <div className='relative grid grid-cols-1 lg:grid-cols-2'>
-        <div className='order-2 lg:order-1'>
-          <div className='m-8 lg:m-24 flex flex-auto flex-col items-start gap-8'>
+        <div className='order-2 lg:order-1 mt-4 mx-[8vw] lg:mt-16'>
+          <div className='flex flex-auto flex-col items-start gap-6'>
 
-          <h1 className='text-3xl md:text-4xl font-matter-r'><span className='font-matter-r leading-snug tracking-wide'>Dargah Shareef</span> <span className='font-matter-b leading-snug tracking-wide'>Hazrat Sayyed Badiuddin Zinda Shah Madar RA</span></h1>
+          <h1 className='text-3xl md:text-4xl font-matter-r'><span className='font-matter-r leading-relaxed tracking-wide'>Dargah Shareef</span> <span className='font-matter-b leading-relaxed tracking-wide'>Hazrat Sayyed Badiuddin Zinda Shah Madar <span className='text-xl'>(R.A)</span></span></h1>
           <Link className='inline-flex justify-center items-center'>
               <div className='relative inline-flex h-14 w-14 flex-none justify-center items-center'>
              <div className='absolute text-gray-200 '>{SVG_CIRCLE}</div> 

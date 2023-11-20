@@ -28,7 +28,7 @@ const DesktopNavBar = () => {
                
                 >
                   
-                  <div className="w-0 h-0 ml-2 border-[8px] border-l-transparent border-b-[13px] border-b-[#b40a0a] border-r-[8px] border-r-transparent rounded-full">
+                  <div className="w-0 h-0 ml-2 border-[8px] border-l-transparent border-b-[13px] border-b-[#600d0d] border-r-[8px] border-r-transparent rounded-full">
                   </div>
                   
                   <ul className='z-70 lg:flex hidden flex-col justify-center rounded-lg shadow w-34 bg-white text-sm text-gray-700'>
