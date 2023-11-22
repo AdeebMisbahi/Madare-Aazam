@@ -27,9 +27,13 @@ const NavBar = () => {
         </motion.button>
       </div>
       {isOpen ? (
-        <div className='absolute left-0 top-20  w-full' >
+        <motion.div className='z-50 bg-white absolute left-0 top-20   w-full' 
+        initial ={{y:-20 ,x:0}}
+        animate ={{y:0, x:0}}
+        transition={{ duration: 0.15 }}
+        >
           <MobileNavBar onToggle={handleToggle} isOpen={isOpen} />
-        </div>
+        </motion.div>
       ) : (
         <DesktopNavBar />
       )}

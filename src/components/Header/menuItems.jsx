@@ -21,4 +21,4 @@ export const LINKS = [
     {name: 'Contribution', to: '/'},
     {name: 'About', to: '/'},
   ];
-export const MOBILE_LINKS = [{name: 'Adeeb', to: '/'}, ...LINKS]  
+export const MOBILE_LINKS = [ ...LINKS]  

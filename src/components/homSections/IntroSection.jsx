@@ -6,7 +6,7 @@ const IntroSection = () => {
     <>
        <div className='bg-[#f6f7fb]'>
         <div className='mx-[8vw] my-[4vh] rounded-md '>
-            <div className='relative grid grid-cols-2 gap-4 md:gap-8'>
+            <div className='relative grid grid-cols-2 gap-4 md:gap-10'>
             <div className='pb-4'>
             <img className='rounded-lg' src="https://scontent.fbek1-1.fna.fbcdn.net/v/t1.6435-9/51156315_840789886271945_5781479331393961984_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=FUF7JmyGw1MAX8M1h3i&_nc_ht=scontent.fbek1-1.fna&oh=00_AfCEIFsjZo6nGcShHlRoOqcS30pdQrMKKYGs6WeWd_WRJQ&oe=6580D833" alt="" />
             

@@ -5,14 +5,6 @@ import { motion } from 'framer-motion';
 
 const DesktopNavBar = () => {
   // Define variants for animation
-  const containerVariants = {
-    hidden: { opacity: 0, y: -10 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-  };
-  const listItemVariants = {
-    hidden: { opacity: 0, x: -10 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
-  };
 
   return (
     <>
