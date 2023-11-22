@@ -10,7 +10,7 @@ const LandingSection = () => {
 
     <div className=''>
       <div className='relative grid grid-cols-4 gap-x-2 md:grid-cols-12'>
-      <div className='col-span-full lg:mb-0 md:col-span-7 md:col-start-6 lg:px-0 shadow-md h-[100vw] md:h-[50vw]'>
+      <div className='col-span-full lg:mb-0 md:col-span-7 md:col-start-6 lg:px-0 shadow-md h-[80vw] md:h-[50vw]'>
           <img 
             className='h-full rounded-lg w-full object-cover object-center '
             src={HeaderPic}
