@@ -11,7 +11,7 @@ const IntroSection = () => {
             <img className='rounded-lg' src="https://scontent.fbek1-1.fna.fbcdn.net/v/t1.6435-9/51156315_840789886271945_5781479331393961984_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=FUF7JmyGw1MAX8M1h3i&_nc_ht=scontent.fbek1-1.fna&oh=00_AfCEIFsjZo6nGcShHlRoOqcS30pdQrMKKYGs6WeWd_WRJQ&oe=6580D833" alt="" />
             
            </div>
-           <div className='flex flex-col justify-center gap-2  items-start'>
+           <div className='flex flex-col justify-center gap-1 md:gap-2  items-start'>
             <h1 className='leading-tight lg:leading-relaxed font-matter-b text-xl md:text-2xl'>
                 Zinda Shah Madar: The Living Sufi Saint
             </h1>
