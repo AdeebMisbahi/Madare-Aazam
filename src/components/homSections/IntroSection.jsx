@@ -1,17 +1,14 @@
 import React from 'react'
 import { SVG_ARROW, SVG_CIRCLE } from '../../assets/SVG/svg'
+import IntroSectionPic from '../../assets/images/MadareAzam5.png'
 import { Link } from 'react-router-dom'
 const IntroSection = () => {
   return (
     <>
        <div className='bg-[#f6f7fb] py-4'>
         <div className='mx-[8vw] rounded-md '>
-            <div className='relative grid grid-cols-2 gap-4 md:gap-10'>
-            <div className='pb-4'>
-            <img className='rounded-lg' src="https://scontent.fbek1-1.fna.fbcdn.net/v/t1.6435-9/51156315_840789886271945_5781479331393961984_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=FUF7JmyGw1MAX8M1h3i&_nc_ht=scontent.fbek1-1.fna&oh=00_AfCEIFsjZo6nGcShHlRoOqcS30pdQrMKKYGs6WeWd_WRJQ&oe=6580D833" alt="" />
-            
-           </div>
-           <div className='flex flex-col justify-center gap-2  items-start'>
+            <div className='relative grid grid-cols-4 md:grid-cols-12 gap-4 md:gap-6'>
+            <div className='col-span-2 md:col-span-5 flex flex-col justify-center gap-2  items-start'>
             <h1 className='leading-tight lg:leading-relaxed font-matter-b text-xl md:text-2xl'>
                 Zinda Shah Madar: The Living Sufi Saint
             </h1>
@@ -20,6 +17,11 @@ const IntroSection = () => {
             <span className=' hidden md:inline'>known as Qutub-ul-Madar, </span>
             <span className=' hidden lg:inline'>Qutb-ul-Aqtab, Qutb-ul-Madar, Fard-ul-Afrad, Qutb-e-Wahdat among the group of Auliya while the common people call him as Madare Alam, Madare-Do-Jahan, Madar-ul-Alameen, Zinda Madar, Zinda Wali, Zinda, Shah Madar</span>
            </p> 
+           </div>
+
+           <div className='pb-4 col-span-2 md:col-span-7'>
+            <img className='rounded-lg' src={IntroSectionPic} alt="" />
+            
            </div>
             </div>
             <div className=''>
