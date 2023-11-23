@@ -79,16 +79,16 @@ const FooterSection = () => {
     </span>
     <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-black0 sm:mt-0">
         <li>
-            <a href="#" class="hover:underline me-4 md:me-6">Refund Policy</a>
+            <a href="#" className="hover:underline me-4 md:me-6">Refund Policy</a>
         </li>
         <li>
-            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+            <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
         </li>
         <li>
-            <a href="#" class="hover:underline me-4 md:me-6">Terms and Condition</a>
+            <a href="#" className="hover:underline me-4 md:me-6">Terms and Condition</a>
         </li>
         <li>
-            <a href="#" class="hover:underline">Licensing</a>
+            <a href="#" className="hover:underline">Licensing</a>
         </li>
     </ul>
     </div>

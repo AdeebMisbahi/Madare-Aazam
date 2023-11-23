@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const IntroSection = () => {
   return (
     <>
-       <div className='bg-[#f6f7fb]'>
+       <div className='bg-[#f6f7fb] py-4'>
         <div className='mx-[8vw] rounded-md '>
             <div className='relative grid grid-cols-2 gap-4 md:gap-10'>
             <div className='pb-4'>
