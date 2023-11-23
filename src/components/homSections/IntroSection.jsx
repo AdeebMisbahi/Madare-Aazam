@@ -14,8 +14,8 @@ const IntroSection = () => {
             </h1>
             <p className='leading-relaxed lg:leading-loose font-matter-m text-base lg:text-lg text-[#1a2231]'>
             <span className='hidden sm:inline'>Sayed Badiuddin Zinda Shah Madar is </span>
-            <span className=' hidden md:inline'>known as Qutub-ul-Madar, </span>
-            <span className=' hidden lg:inline'>Qutb-ul-Aqtab, Qutb-ul-Madar, Fard-ul-Afrad, Qutb-e-Wahdat among the group of Auliya while the common people call him as Madare Alam, Madare-Do-Jahan, Madar-ul-Alameen, Zinda Madar, Zinda Wali, Zinda, Shah Madar</span>
+            <span className=' hidden md:inline'>known as Qutub-ul-Madar, Qutb-ul-Aqtab, Qutb-ul-Madar, Fard-ul-Afrad, Qutb-e-Wahdat among the group of Auliya </span>
+            <span className=' hidden lg:inline'> while the common people call him as Madare Alam, Madare-Do-Jahan, Madar-ul-Alameen, Zinda Madar, Zinda Wali, Zinda Shah Madar</span>
            </p> 
            </div>
 
@@ -27,8 +27,8 @@ const IntroSection = () => {
             <div className=''>
                 <p className='leading-relaxed lg:leading-loose font-matter-m text-base lg:text-lg text-[#1a2231]'>
             <span className='inline sm:hidden'>Sayed Badiuddin Zinda Shah Madar is </span>
-            <span className=' inline md:hidden'>known as Qutub-ul-Madar, </span>
-            <span className=' inline lg:hidden'>Qutb-ul-Aqtab, Qutb-ul-Madar, Fard-ul-Afrad, Qutb-e-Wahdat among the group of Auliya while the common people call him as Madare Alam, Madare-Do-Jahan, Madar-ul-Alameen, </span>
+            <span className=' inline md:hidden'>known as Qutub-ul-Madar, Qutb-ul-Aqtab, Qutb-ul-Madar, Fard-ul-Afrad, Qutb-e-Wahdat among the group of Auliya</span>
+            <span className=' inline lg:hidden'> while the common people call him as Madare Alam, Madare-Do-Jahan, Madar-ul-Alameen, </span>
             <span>
             Sayed Badiuddin Zinda Shah Madar, born on the auspicious day of 1st Shawwal 242 AD (5th February 856 CE) in Chinar, Aleppo, Syria, emerged from a lineage deeply connected to the Noble Prophet (SAWS). His father, Sayyid Qudwatuddin Ali al-Halabi, and mother, Sayyida Fatima Sania (Bibi Hajira), bestowed upon him a heritage that intertwined the noble lines of Imam Hasan and Imam Hussain, making him a distinguished Hasani-Hussaini Sayyid.
             
