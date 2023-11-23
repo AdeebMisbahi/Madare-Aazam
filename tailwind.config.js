@@ -22,6 +22,15 @@ export default {
         'merienda-b': ['Merienda-Bold', 'Helvetica', 'Arial', 'sans-serif'],
         'merienda-s': ['Merienda-SemiBold', 'Helvetica', 'Arial', 'sans-serif'],
        
+      },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
       }
     },
   },
