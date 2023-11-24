@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const IntroSection = () => {
   return (
     <>
-       <div className='mx-[4vw] py-[4vw]'>
+       <div className='m-[4vw]'>
         <div className='bg-gray-50 rounded-lg p-[5vw]'>
             <div className='relative grid grid-cols-4 md:grid-cols-12 '>
             <div className='col-span-2 md:col-span-5 flex flex-col justify-center gap-2  items-start'>
