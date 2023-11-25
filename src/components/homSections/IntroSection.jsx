@@ -9,10 +9,10 @@ const IntroSection = () => {
         <div className='bg-gray-50 rounded-lg p-[5vw]'>
             <div className='relative grid grid-cols-4 md:grid-cols-12 '>
             <div className='col-span-2 md:col-span-5 flex flex-col justify-center gap-2  items-start'>
-            <h1 className='leading-tight lg:leading-relaxed font-matter-b text-xl md:text-3xl'>
+            <h1 className='leading-tight lg:leading-relaxed font-matter-b text-2xl md:text-3xl'>
                 Zinda Shah Madar: The Living Sufi Saint
             </h1>
-            <p className='leading-relaxed lg:leading-loose font-matter-m text-base lg:text-lg text-[#1a2231]'>
+            <p className='leading-relaxed lg:leading-loose font-matter-m text-lg lg:text-xl text-[#1a2231]'>
             <span className='hidden sm:inline'>Syed Badiuddin Zinda Shah Madar is </span>
             <span className=' hidden md:inline'>known as Qutub-ul-Madar, Qutb-ul-Aqtab, Qutb-ul-Madar, Fard-ul-Afrad, Qutb-e-Wahdat among the group of Auliya  while the common people call him as Madare Alam,</span>
             <span className=' hidden lg:inline'> while the common people call him as Madare Alam, Madare-Do-Jahan, Madar-ul-Alameen, Zinda Wali, Zinda Madar, Zinda Shah Madar</span>
@@ -25,7 +25,7 @@ const IntroSection = () => {
            </div>
             </div>
             <div className=''>
-                <p className='leading-relaxed lg:leading-loose font-matter-m text-base lg:text-lg text-[#1a2231]'>
+                <p className='leading-relaxed lg:leading-loose font-matter-m text-lg lg:text-xl text-[#1a2231]'>
             <span className='inline sm:hidden'>Sayed Badiuddin Zinda Shah Madar is </span>
             <span className=' inline md:hidden'>known as Qutub-ul-Madar, Qutb-ul-Aqtab, Qutb-ul-Madar, Fard-ul-Afrad, Qutb-e-Wahdat among the group of Auliya while the common people call him as Madare Alam,</span>
             <span className=' inline lg:hidden'> Madare-Do-Jahan, Madar-ul-Alameen, </span>
