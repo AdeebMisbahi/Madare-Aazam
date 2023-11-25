@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { SVG_ARROW, SVG_CIRCLE } from '../../assets/SVG/svg'
+import { Link } from 'react-router-dom'
 const HeroSection = () => {
   return (
     <div className='m-[4vw]'>
@@ -11,6 +12,13 @@ const HeroSection = () => {
                 <p className='text-2xl font-matter-m leading-tight lg:leading-relaxed md:text-3xl text-gray-400 mt-3.5 md:mt-8'>
                 Revered as 'Jaane Wali' and 'Misbahe Wali' — A Distinguished Scholar and Illuminating Poetic Visionary
                 </p>
+              <Link className='inline-flex justify-start items-center mt-4'>
+              <span className='tracking-tight mr-4 text-xl font-matter-m '>Learn More About Misbahul Murad</span>
+              <div className='relative inline-flex h-14 w-14 flex-none justify-center items-center'>
+              <div className='absolute text-gray-200 '>{SVG_CIRCLE}</div> 
+              <div className='-rotate-90'>{SVG_ARROW}</div>
+              </div>
+               </Link>
 
             </div>
             <div className='relative col-span-full lg:col-span-6 lg:col-start-7 mt-4 lg:block rounded-lg overflow-hidden'>
