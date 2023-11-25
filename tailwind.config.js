@@ -15,6 +15,7 @@ export default {
       fontFamily: {
         'sans': ['Matter-Medium', 'Helvetica', 'Arial', 'sans-serif'],
         'matter-r': ['Matter-Regular', 'Helvetica', 'Arial', 'sans-serif'],
+        'matter-s': ['Matter-SemiBold', 'Helvetica', 'Arial', 'sans-serif'],
         'matter-b': ['Matter-Bold', 'Helvetica', 'Arial', 'sans-serif'],
         'matter-m': ['Matter-Medium', 'Helvetica', 'Arial', 'sans-serif'],
         'merienda-r': ['Merienda-Regular', 'Helvetica', 'Arial', 'sans-serif'],

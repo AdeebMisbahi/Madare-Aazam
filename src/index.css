@@ -21,7 +21,7 @@
 @font-face {
     font-family: 'Matter-SemiBold';
     src:url('./fonts/Matter-SemiBold.ttf') format('truetype'); 
-    font-weight: normal;
+    font-weight: thin;
     font-style: normal;
     font-display: swap;
 }

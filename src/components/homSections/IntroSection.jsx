@@ -9,7 +9,7 @@ const IntroSection = () => {
         <div className='bg-gray-50 rounded-lg p-[5vw]'>
             <div className='relative grid grid-cols-4 md:grid-cols-12 '>
             <div className='col-span-2 md:col-span-5 flex flex-col justify-center gap-2  items-start'>
-            <h1 className='leading-tight lg:leading-relaxed font-matter-b text-xl md:text-2xl'>
+            <h1 className='leading-tight lg:leading-relaxed font-matter-b text-xl md:text-3xl'>
                 Zinda Shah Madar: The Living Sufi Saint
             </h1>
             <p className='leading-relaxed lg:leading-loose font-matter-m text-base lg:text-lg text-[#1a2231]'>
