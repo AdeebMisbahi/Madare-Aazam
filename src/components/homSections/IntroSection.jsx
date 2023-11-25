@@ -38,7 +38,7 @@ const IntroSection = () => {
             </p>
             </div>
             
-            <Link className='inline-flex justify-center items-center'>
+            <Link className='inline-flex justify-center items-center mt-4'>
             <span className='tracking-tight mr-4 text-xl font-matter-m '>Learn More About Zinda Shah Madar</span>
               <div className='relative inline-flex h-14 w-14 flex-none justify-center items-center'>
               <div className='absolute text-gray-200 '>{SVG_CIRCLE}</div> 
