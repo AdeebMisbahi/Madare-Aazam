@@ -12,7 +12,7 @@ const IntroSection = () => {
             <h1 className='text-2xl md:text-3xl font-matter-m leading-tight md:leading-relaxed'>
                 Zinda Shah Madar: The Living Sufi Saint
             </h1>
-            <p className='text-2xl md:text-3xl font-matter-m leading-tight md:leading-relaxed text-gray-400'>Syed Badiuddin Zinda Shah Madar is
+            <p className='text-xl md:text-3xl font-matter-m leading-tight md:leading-relaxed text-gray-400'>Syed Badiuddin Zinda Shah Madar is
             known as Qutub-ul-Madar, Qutb-ul-Aqtab, Qutb-ul-Madar, Fard-ul-Afrad, Qutb-e-Wahdat among the group of Auliya  while the common people call him as Madare Alam,
             while the common people call him as Madare Alam, Madare-Do-Jahan, Madar-ul-Alameen, Zinda Wali, Zinda Madar, Zinda Shah Madar
            </p> 
@@ -24,7 +24,7 @@ const IntroSection = () => {
            </div>
             </div>
             <div className=''>
-                <p className='text-2xl md:text-3xl font-matter-m leading-tight md:leading-relaxed text-gray-400'>
+                <p className='text-xl md:text-3xl font-matter-m leading-tight md:leading-relaxed text-gray-400'>
             Sayed Badiuddin Zinda Shah Madar, born on the auspicious day of 1st Shawwal 242 AD (5th February 856 CE) in Chinar, Aleppo, Syria, emerged from a lineage deeply connected to the Noble Prophet (SAWS). His father, Sayyid Qudwatuddin Ali al-Halabi, and mother, Sayyida Fatima Sania (Bibi Hajira), bestowed upon him a heritage that intertwined the noble lines of Imam Hasan and Imam Hussain, making him a distinguished Hasani-Hussaini Sayyid.
             
             In tracing his family roots, Sayed Badiuddin proudly declared his ancestry: "I hail from Aleppo. My name is Badiuddin. I am Hasani from my mother's side and Hussaini from my father's side, and thus my grandfather is Mustafa, the king of both the worlds and the most praised." This illustrious lineage serves as a testament to his esteemed heritage, further enriching the spiritual legacy of Zinda Shah Madar.
